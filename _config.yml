@@ -37,5 +37,5 @@ tag_permalink_style:  pretty
 defaults:
   - scope:
       path: '_pages'
-  - values:
+    values:
       permalink: /:basename:output_ext
