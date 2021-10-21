@@ -24,7 +24,7 @@ $off-canvas-width: 300px;
     margin: auto;
     text-align: center;
     width: 25px;
-    background: #323232;
+    background: $color-text;
     cursor: pointer;
 
     &:before,
