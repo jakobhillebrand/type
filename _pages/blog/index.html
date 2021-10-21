@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: default
 title: Blog
 permalink: /blog/
 ---
 
 <div class='o-wrapper'>
   <div class='o-grid'>
+    <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
     {% for post in paginator.posts %}
       {% include post-card.liquid %}
     {% endfor %}
