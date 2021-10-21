@@ -20,6 +20,8 @@ $(document).ready(function() {
     $('.js-off-canvas-container').toggleClass('is-active');
   });
   
+  
+  
   $('.js-off-canvas-container.is-active').click(function(e) {
     e.preventDefault();
     alert("Hello! I am an alert box BOTH!!");
@@ -40,5 +42,13 @@ $(document).ready(function() {
     $('.js-off-canvas-toggle').removeClass('is-active');
     $('.js-off-canvas-container').removeClass('is-active');
   });
+  
+  
+  $(document).mouseup(function(e) {
+    var container = $('.c-off-canvas-content');
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        alert("Hello! I am an alert -- mouse");
+    }
+});
 
 });
