@@ -20,8 +20,16 @@ $(document).ready(function() {
     $('.js-off-canvas-container').toggleClass('is-active');
   });
   
-  $('.js-off-canvas-container::after').click(function(e) {
-    alert("Hello! I am an alert box ::after!!");
+  $('.js-off-canvas-container.is-active').click(function(e) {
+    e.preventDefault();
+    alert("Hello! I am an alert box BOTH!!");
+    $('.js-off-canvas-toggle').removeClass('is-active');
+    $('.js-off-canvas-container').removeClass('is-active');
+  });
+  
+  $('.is-active').click(function(e) {
+    e.preventDefault();
+    alert("Hello! I am an alert box -- is active!!");
     $('.js-off-canvas-toggle').removeClass('is-active');
     $('.js-off-canvas-container').removeClass('is-active');
   });
