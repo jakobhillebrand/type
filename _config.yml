@@ -15,7 +15,7 @@ google_analytics: UA—XXXXXXXX-X
 markdown:  kramdown
 permalink: pretty
 paginate:  6
-paginate_path: _pages/blog/page:num
+paginate_path: /blog/page:num
 
 sass:
   style: compressed
