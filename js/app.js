@@ -33,5 +33,12 @@ $(document).ready(function() {
     $('.js-off-canvas-toggle').removeClass('is-active');
     $('.js-off-canvas-container').removeClass('is-active');
   });
+  
+  $('.js-off-canvas-container:after').click(function(e) {
+    e.preventDefault();
+    alert("Hello! I am an alert box -- :alert!!");
+    $('.js-off-canvas-toggle').removeClass('is-active');
+    $('.js-off-canvas-container').removeClass('is-active');
+  });
 
 });
