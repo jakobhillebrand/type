@@ -20,8 +20,9 @@ $(document).ready(function() {
     $('.js-off-canvas-container').toggleClass('is-active');
   });
   
-  $('.js-off-canvas-container.is-active').click(function(e) {
+  $('.js-off-canvas-container').click(function(e) {
     e.preventDefault();
+    $('.js-off-canvas-toggle').toggleClass('is-active');
     $('.js-off-canvas-container').toggleClass('is-active');
   });
 
