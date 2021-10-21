@@ -25,6 +25,9 @@ plugins:
 
 include:
   - _pages
+  
+exclude:
+  vendor
 
 # Tags
 tag_page_dir:         tag
