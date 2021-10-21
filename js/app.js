@@ -22,14 +22,8 @@ $(document).ready(function() {
   });
   
 
-$('.js-off-canvas-toggle').click(function(e){
-    e.stopPropagation();
-});
-  $('.js-off-canvas-container').click(function(e){
-    e.stopPropagation();
-});
-
 $('body,html').click(function(e){
+  alert("bhcwenkwnkja")
   $('.js-off-canvas-toggle').removeClass('is-active');
     $('.js-off-canvas-container').removeClass('is-active');
 });
