@@ -20,13 +20,5 @@ $(document).ready(function() {
     $('.js-off-canvas-toggle').toggleClass('is-active');
     $('.js-off-canvas-container').toggleClass('is-active');
   });
-  
-
-$('body,html').click(function(e){
-  alert("bhcwenkwnkja")
-  $('.js-off-canvas-toggle').removeClass('is-active');
-    $('.js-off-canvas-container').removeClass('is-active');
-});
-  
 
 });
