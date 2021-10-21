@@ -12,7 +12,6 @@ facebook:    ''
 markdown:  kramdown
 permalink: pretty
 paginate:  6
-paginate_path: "/#:num/"
 
 sass:
   style: compressed
