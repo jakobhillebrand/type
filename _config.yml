@@ -9,7 +9,8 @@ github:      ''
 instagram:   ''
 facebook:    ''
 
-
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
 
 markdown:  kramdown
 permalink: pretty
@@ -24,9 +25,6 @@ plugins:
 
 include:
   - _pages
-  
-exclude:
-  vendor
 
 # Tags
 tag_page_dir:         tag
