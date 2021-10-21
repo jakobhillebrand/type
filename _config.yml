@@ -9,8 +9,7 @@ github:      ''
 instagram:   ''
 facebook:    ''
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+
 
 markdown:  kramdown
 permalink: pretty
