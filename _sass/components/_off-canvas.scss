@@ -6,12 +6,15 @@ $off-canvas-width: 300px;
 
 .c-off-canvas-toggle {
   float: right;
-  position: relative;
-  top: half($base-spacing-unit);
-  z-index: 10;
-  height: 19px;
-  width: 25px;
-  cursor: pointer;
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    z-index: 10;
+    padding: 1em 1em 2em 1em;
+    margin: -1em -0.5em -2em -1em;
+    height: 19px;
+    width: 25px;
+    cursor: pointer;
 
   &__icon {
     position: absolute;
