@@ -18,7 +18,6 @@ $(document).ready(function() {
     e.preventDefault();
     $('.js-off-canvas-toggle').toggleClass('is-active');
     $('.js-off-canvas-container').toggleClass('is-active');
-    $('.js-off-canvas-container.is-active').removeClass('is-active');
   });
 
 });
