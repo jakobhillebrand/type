@@ -11,8 +11,7 @@
       {{ post.content | strip_html | truncatewords:35 }}
     </p>
     
-    {% include date-german.html %}
-    <span class='c-post-card__date'>{{ post.date | date: '%d. %-m %Y' }}{% include date-german.html %}</span>{% include date-german.html %}
+    <span class='c-post-card__date'>{% include date-german.html %}{{ post.date | date: '%d. %-m %Y' }}{% include date-german.html %}</span>
   </a>
 
 </div>
