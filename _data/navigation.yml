@@ -1,12 +1,9 @@
-- title: Die Pfalz
-  url: /
-- title: Ferienwohnung
-  url: /fewo/
-- title: Apartment
-  url: /apt/
-- title: Buchen
-  url: /buchen/
-- title: Anfahrt
-  url: /anfahrt/
+- title: Blog
+  url: /blog/
+- title: Resume
+  url: /resume/
+- title: Projekte
+  url: /projekte/
 - title: Kontakt
   url: /kontakt/
+
