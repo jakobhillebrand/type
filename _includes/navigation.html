@@ -7,3 +7,14 @@
     {% endif %}
   {% endunless %}
 {% endfor %}
+
+
+% if site.data.navigation %}
+      {% for item in site.data.navigation %}
+        <li class='c-nav__item' role='presentation'>
+          <a class='c-nav__link' href="{{ item.url | relative_url }}" {% if page.url == item.url %}current{% endif %}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+  {% endif %}
