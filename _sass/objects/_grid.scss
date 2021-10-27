@@ -14,8 +14,8 @@ $grid-gutter: $base-spacing-unit;
   @include clearfix();
 
   .o-grid {
-    margin-right: - $grid-gutter;
-    margin-left: - $grid-gutter;
+    margin-right: 0;
+    margin-left: 0;
     padding: 0;
   }
 
