@@ -6,16 +6,18 @@ title: Projekte
 <div class="o-grid">
   
   <div class="o-grid__col--full">
-  1. Spalte voll
+    1. Spalte voll
+    <h1>Projekt #1</h1>
+    <p>Beschreibung</p>
     <hr>
   </div>
 
   <div class="o-grid__col--full">
-  2. Spalte voll
+    2. Spalte voll
+    <hr>
   </div>
     
 </div>
-<hr>
 
 
 You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
