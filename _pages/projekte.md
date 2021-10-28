@@ -5,31 +5,15 @@ title: Projekte
 
 <style>
   .border {border: 1px solid black}
-  .card {
-    margin: 0.5rem;
-    height: 33.33333%;
-    background-color: #999999;
-    position: relative;
-  }
-  .card-content {
-    position: absolute;
-    padding: 0.5rem;
-    margin: auto;
-    text-align: center;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
 </style>
 
 <div class="o-grid">
   
-  <div class="o-grid__col--1-3-s border">
-  Spalte klein links
+  <div class="o-grid__col--full border">
+  Spalte voll
   </div>
 
-  <div class="o-grid__col--1-3-s card">
+  <div class="o-grid__col--full">
     <div class="card-content">
      Spalte groß rechts
     </div>
