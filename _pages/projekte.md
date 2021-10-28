@@ -13,6 +13,9 @@ title: Projekte
   }
   .card-content {
     position: absolute;
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
     top: 0;
     bottom: 0;
     right: 0;
