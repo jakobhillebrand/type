@@ -6,8 +6,7 @@ title: Projekte
 <div class="o-grid">
   
   <div class="o-grid__col--full">
-    1. Spalte voll
-    <h1>Projekt #1</h1>
+    <h3>Projekt #1</h3>
     <p>Beschreibung</p>
     <hr>
   </div>
