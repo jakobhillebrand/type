@@ -7,9 +7,8 @@ title: Projekte
   
   <div class="o-grid__col--full">
   1. Spalte voll
+    <hr>
   </div>
-  
-  <hr>
 
   <div class="o-grid__col--full">
   2. Spalte voll
