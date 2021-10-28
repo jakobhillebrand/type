@@ -7,7 +7,7 @@ title: Projekte
   .border {border: 1px solid black}
   .card {
     margin: 0.5rem;
-    padding-top: 100%;
+    padding-top: 33.33333%;
     background-color: #999999;
     position: relative;
   }
