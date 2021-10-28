@@ -25,7 +25,7 @@ img {
 }
 
 .card_image {
-  margin-left: 0;
+  margin-left: -5rem;
 }
   
 .card_details {
