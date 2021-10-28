@@ -2,6 +2,7 @@
 layout: page
 title: Projekte
 ---
+Text
 
 <style>
   .border {border: 1px solid blue}
@@ -18,3 +19,5 @@ title: Projekte
   Spalte
   </div>
 </div>
+
+Text
