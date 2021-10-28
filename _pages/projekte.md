@@ -3,23 +3,20 @@ layout: page
 title: Projekte
 ---
 
-<style>
-  .border {border: 1px solid black}
-</style>
-
 <div class="o-grid">
   
-  <div class="o-grid__col--full border">
-  Spalte voll
+  <div class="o-grid__col--full">
+  1. Spalte voll
   </div>
+  
+  <hr>
 
   <div class="o-grid__col--full">
-    <div class="card-content">
-     Spalte groß rechts
-    </div>
+  2. Spalte voll
   </div>
     
 </div>
+<hr>
 
 
 You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
