@@ -8,7 +8,7 @@ title: Projekte
   .card {
     margin: 0.5rem;
     padding-top: 100%
-    background-color: #ededed;
+    background-color: #999999;
     position: relative;
   }
   .card-content {
