@@ -3,8 +3,12 @@ layout: page
 title: Projekte
 ---
 
+<style>
+  .border {border: 1px solid black}
+</style>
+
 <div class="o-grid">
-  <div class="o-grid__col--1-3-s">
+  <div class="o-grid__col--1-3-s border">
   Spalte klein links
   </div>
 
