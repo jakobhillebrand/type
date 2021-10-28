@@ -4,13 +4,6 @@ title: Projekte
 ---
 
 <style>
-  body {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  font-size: 15px;
-  line-height: 1.6;
-}
 img {
   width: 15rem;
   display:block;
