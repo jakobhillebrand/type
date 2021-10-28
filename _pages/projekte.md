@@ -10,12 +10,14 @@ img {
   max-height: 10rem;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
+  
 .card {
   background: #64B5F6;
   width: 27em;
   min-height: 14rem;
   position: relative;
 }
+  
 .row {
   display: flex;
   align-items: center;
@@ -23,8 +25,8 @@ img {
 
 .card_image {
   margin-left: -5rem;
-  
 }
+  
 .card_details {
   margin: 1rem;
 }
@@ -38,6 +40,7 @@ h1{
   font-weight:bold;
   font-family: Merriweather, serif;  
 }
+  
 p{
   font-size:1rem;
   text-align:center;
