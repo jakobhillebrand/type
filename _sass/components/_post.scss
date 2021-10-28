@@ -15,7 +15,7 @@
     }
   }
 
-  &__date {
+  &__date, &__line {
     position: relative;
     padding-top: $base-spacing-unit;
     display: block;
