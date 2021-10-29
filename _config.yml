@@ -13,7 +13,7 @@ facebook:    ''
 google_analytics: UA—XXXXXXXX-X
 
 markdown:  kramdown
-permalink: /:year-:month-:day
+permalink: /:year/:month/:day
 paginate:  6
 paginate_path: "/blog/page:num/"
 
