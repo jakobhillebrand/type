@@ -7,7 +7,7 @@
   
   &__item {
     font-size: $font-size-base;
-    line-height: $line-height-base;
+    line-height: double($line-height-base);
   }
 
   &__link {
