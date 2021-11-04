@@ -1,16 +1,16 @@
 .front {
   
-  &-little {
+  &_little {
     font-size: $font-size-base;
     font-weight: $font-weight-light;
   }
   
-  &-big {
+  &_big {
     font-size: $font-size-brand;
     font-weight: $font-weight-light;
   }
   
-  &-bigger {
+  &_bigger {
     font-weight: $font-weight-bolder;
     font-size: double($font-size-base)
   }
