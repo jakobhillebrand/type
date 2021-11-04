@@ -1,20 +1,21 @@
 .front {
   
+  &_text {
+    margin-bottom: $base-spacing-unit;
+  }
+  
   &_little {
     font-size: $font-size-base;
     font-weight: $font-weight-light;
-    margin-bottom: $base-spacing-unit;
   }
   
   &_big {
     font-size: double($font-size-base);
     font-weight: $font-weight-bold;
-    margin-bottom: $base-spacing-unit;
   }
   
   &_bigger {
     font-weight: $font-weight-bolder;
     font-size: double($font-size-base);
-    margin-bottom: $base-spacing-unit;
   }
 }
