@@ -1,13 +1,17 @@
-.front
+.front {
+  
   &-little {
     font-size: $font-size-base;
     font-weight: $font-weight-light;
   }
+  
   &-big {
     font-size: $font-size-brand;
     font-weight: $font-weight-light;
   }
+  
   &-bigger {
     font-weight: $font-weight-bolder;
     font-size: double($font-size-base)
   }
+}
