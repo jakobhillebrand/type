@@ -6,12 +6,12 @@
   }
   
   &_big {
-    font-size: $font-size-brand;
-    font-weight: $font-weight-light;
+    font-size: double($font-size-medium);
+    font-weight: $font-weight-bold;
   }
   
   &_bigger {
     font-weight: $font-weight-bolder;
-    font-size: double($font-size-base)
+    font-size: double($font-size-base);
   }
 }
